@@ -41,7 +41,7 @@ Find a regular expression that will match a student number.
 `Hint: The numbers are (obviously) different for different students, so finding a regular expression that only matches this one student number is not enough. 
 Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** G\d{8}
 
 #### Question 2
 
@@ -50,7 +50,7 @@ Find a regular expression that will match a student number, based on the additio
  
 `Hint: Unless the way your regular expression works is obvious, please explain how it works, e.g. this here will match the character and that here makes sure it also works if there is no character in front of the number.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** \w\i*\d{8}
 
 #### Question 3
 
@@ -59,17 +59,17 @@ Find a regular expression that will match a student number, based on the additio
  
 `Hint: Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** \w\d{8}
 
 #### Question 4a
 
 Think of different ways of writing down a British phone number. and write them down as your answer to this question (one per line).
 
-Example: (01772) 201201, +44 (0)1772 201201  
+Example: 01772 201201, 01772201201, (01772) 201201, +44 (0)1772 201201, 201201, (01772)201201, +44(0)1772201201
  
 `Hint: It's obvious, but just to spell it out: For this question, you should think about different ways of writing down a phone number. It's not about trying to come up with as many phone number as you can.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** \+?\d{1,}\s?\(?\d{1,}\)?\d{1,}
 
 
 #### Question 4b
@@ -78,4 +78,4 @@ Find a regular expression that matches all of the different phone number formats
  
 `Hint: Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** \+?\d{1,}\s?\(?\d{1,}\)?\d{1,}
