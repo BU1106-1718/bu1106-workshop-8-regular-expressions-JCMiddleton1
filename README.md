@@ -65,12 +65,21 @@ Find a regular expression that will match a student number, based on the additio
 
 Think of different ways of writing down a British phone number. and write them down as your answer to this question (one per line).
 
-Example: 01772 201201, 01772201201, (01772) 201201, +44 (0)1772 201201, 201201, (01772)201201, +44(0)1772201201
+Example: (01772) 201201, +44 (0)1772 201201
  
 `Hint: It's obvious, but just to spell it out: For this question, you should think about different ways of writing down a phone number. It's not about trying to come up with as many phone number as you can.`
 
-**Answer:** \+?\d{1,}\s?\(?\d{1,}\)?\d{1,}
-
+**Answer:** 
+01772 201201
+01772201201
+201201
+(01772)201201
++44(0)1772201201
+0800 133242
+01324 243435
+015242 434354
+(0169 77) 354324
+(020) 3562 5787
 
 #### Question 4b
 
